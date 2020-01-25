@@ -5,7 +5,6 @@ import java.util.Random;
 public class Zad_14_histogram {
     /**
      * Stwórz program, który generuje istogram z wybranych liczb.
-     * kawa kawa kawa
      *
      * @param args
      */
@@ -22,6 +21,5 @@ public class Zad_14_histogram {
             System.out.println(String.format("%d -> %d", i, histogram[i]));
         }
 
-        // test branch
     }
 }
