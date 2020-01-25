@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Zad_14_histogram {
     /**
-     * Stworzyć program, który generuje istogram z wybranych liczb.
+     * Stwórz program, który generuje istogram z wybranych liczb.
      *
      * @param args
      */
