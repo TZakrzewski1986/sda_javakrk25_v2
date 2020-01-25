@@ -10,8 +10,8 @@ public class Ex_1_printing_shapes {
      */
     public static void main(String[] args) {
         square(10);
-        triangle(10);
-        triangle2(10);
+        triangle(11);
+        triangle2(11);
         triangle3(11);
         triangle4(11);
     }
@@ -31,6 +31,8 @@ public class Ex_1_printing_shapes {
             for (int j = 0; j < size; j++) {
                 if (i >= j) {
                     System.out.print(" # ");
+                } else {
+                    System.out.print(" . ");
                 }
             }
             System.out.println();
@@ -41,10 +43,10 @@ public class Ex_1_printing_shapes {
     private static void triangle2(int size) {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                if (i < j) {
+                if (i <= j) {
                     System.out.print(" # ");
                 } else {
-                    System.out.print("   ");
+                    System.out.print(" . ");
                 }
             }
             System.out.println();
