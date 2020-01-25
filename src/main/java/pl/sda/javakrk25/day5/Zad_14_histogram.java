@@ -3,7 +3,11 @@ package pl.sda.javakrk25.day5;
 import java.util.Random;
 
 public class Zad_14_histogram {
-
+    /**
+     * Stworzyć program, który generuje istogram z wybranych liczb.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] histogram = new int[10];
         Random random = new Random();
