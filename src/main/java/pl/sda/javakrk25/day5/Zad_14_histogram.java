@@ -6,6 +6,7 @@ public class Zad_14_histogram {
     /**
      * Stwórz program, który generuje istogram z wybranych liczb.
      * kawa kawa kawa
+     * master
      *
      * @param args
      */
