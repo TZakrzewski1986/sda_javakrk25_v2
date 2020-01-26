@@ -7,6 +7,7 @@ public class Ex_12_array_intersect {
      *
      * @param args
      */
+
     public static void main(String[] args) {
         int[] tab1 = {1, 2, 3, 4, 5};
         int[] tab2 = {4, 5, 6, 7};
