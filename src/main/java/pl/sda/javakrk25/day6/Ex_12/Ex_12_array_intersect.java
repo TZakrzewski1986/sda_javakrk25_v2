@@ -20,11 +20,8 @@ public class Ex_12_array_intersect {
     private static int[] getIntersect(int[] tab1, int[] tab2) {
         int[] result = new int[0];
         for (int i : tab1) {
-            for (int j : tab2) {
-
-                if (i == j) {
-                    result = ArrayUtil.addToEnd(result, i);
-                }
+            if (ArrayUtil.contains(tab2, i)) {
+                result = ArrayUtil.addToEnd(result, i);
             }
         }
         return result;
