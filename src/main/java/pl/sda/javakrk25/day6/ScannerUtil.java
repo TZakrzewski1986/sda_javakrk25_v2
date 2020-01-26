@@ -11,7 +11,6 @@ public class ScannerUtil {
             System.out.println("Provide number");
             n = scanner.nextInt();
         } while (n < 1);
-
         return n;
     }
 }
