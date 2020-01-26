@@ -1,4 +1,4 @@
-package pl.sda.javakrk25.day6.Ex_12;
+package pl.sda.javakrk25.day6;
 
 import java.util.Arrays;
 

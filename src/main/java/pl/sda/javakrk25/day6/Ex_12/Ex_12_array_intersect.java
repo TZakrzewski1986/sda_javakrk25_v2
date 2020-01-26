@@ -1,5 +1,7 @@
 package pl.sda.javakrk25.day6.Ex_12;
 
+import pl.sda.javakrk25.day6.ArrayUtil;
+
 public class Ex_12_array_intersect {
 
     /**
