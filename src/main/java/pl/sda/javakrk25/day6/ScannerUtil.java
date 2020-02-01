@@ -11,6 +11,13 @@ public class ScannerUtil {
             System.out.println("Provide number");
             n = scanner.nextInt();
         } while (n < 1);
+
         return n;
+    }
+
+    public static String readUserInput() {
+        System.out.println("Hello, please provide text");
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 }
